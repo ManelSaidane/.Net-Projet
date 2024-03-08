@@ -1,0 +1,79 @@
+﻿@model ProjetRec.Models.Job
+
+@{
+    ViewData["Title"] = "Job Details";
+}
+
+<!-- Custom Style -->
+<style>
+    .details-container {
+        margin-top: 20px;
+        padding: 25px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .details-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .action-links {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn-apply {
+        margin-right: 10px;
+    }
+</style>
+
+<div class="container">
+    <div class="details-container">
+        <h1 class="details-heading">Job Details</h1>
+        <hr />
+
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.SkillsNeeded)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.SkillsNeeded)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Location)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Location)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Entreprise)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Entreprise.Name)
+            </dd>
+        </dl>
+    </div>
+
+    <div class="action-links">
+        <a asp-action="Index2" class="btn btn-secondary">Back to List</a>
+
+        <form asp-controller="Applications" asp-action="Create" method="post" style="display: inline;">
+            <input type="hidden" name="JobId" value="@Model.Id" />
+            <input type="submit" value="Apply" class="btn btn-primary btn-apply" />
+        </form>
+    </div>
+</div>

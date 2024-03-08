@@ -1,0 +1,69 @@
+﻿@model Candidat
+
+<!-- Custom Style -->
+<style>
+    .background-image {
+        background-image: url('https://png.pngtree.com/background/20211217/original/pngtree-creative-recruitment-and-job-search-background-hiring-concept-for-web-page-picture-image_1576676.jpg'); /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .login-container {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .login-form {
+        width: 100%;
+        max-width: 400px;
+        padding: 25px;
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .login-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        width: 100%; /* Full-width button */
+        padding: 10px;
+    }
+</style>
+
+<div class="background-image"></div> <!-- Background Image -->
+
+<div class="container">
+    <div class="login-container">
+        <div class="login-form">
+            <h2 class="login-heading">Login</h2>
+
+            <form method="post">
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input id="Email" class="form-control" type="email" asp-for="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input id="Password" class="form-control" type="password" asp-for="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

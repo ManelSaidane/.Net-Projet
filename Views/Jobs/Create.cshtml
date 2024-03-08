@@ -1,0 +1,80 @@
+﻿@model ProjetRec.Models.Job
+
+@{
+    ViewData["Title"] = "Create Job";
+}
+
+<!-- Custom Style -->
+<style>
+    .create-form-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .create-form {
+        padding: 25px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .create-heading {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .back-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="container create-form-container">
+    <div class="col-md-6 create-form">
+        <h1 class="create-heading">Create Job</h1>
+        <hr />
+
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Title" class="control-label">Title</label>
+                <input asp-for="Title" class="form-control" placeholder="Enter title" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Description</label>
+                <input asp-for="Description" class="form-control" placeholder="Enter description" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SkillsNeeded" class="control-label">Skills Needed</label>
+                <input asp-for="SkillsNeeded" class="form-control" placeholder="Enter required skills" />
+                <span asp-validation-for="SkillsNeeded" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Location" class="control-label">Location</label>
+                <input asp-for="Location" class="form-control" placeholder="Enter location" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="back-link">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

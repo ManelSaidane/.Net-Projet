@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = projet_Daber_5edma_version_sans_api
+build_property.RootNamespace = projet_Daber_5edma_version_sans_api
+build_property.ProjectDir = C:\Users\imadb\Desktop\4eme_GL\S1\ASP.NET\Projet\projet_Daber_5edma_version_sans_api\projet_Daber_5edma_version_sans_api\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\imadb\Desktop\4eme_GL\S1\ASP.NET\Projet\projet_Daber_5edma_version_sans_api\projet_Daber_5edma_version_sans_api
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Candidats/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Candidats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Candidats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Candidats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Candidats/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Candidats/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Companies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Companies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Companies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Companies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Companies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Companies/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobApplications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobApplications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobApplications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobApplications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobOffers/Candidate_list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJzXENhbmRpZGF0ZV9saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobOffers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobOffers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobOffers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobOffers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/JobOffers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iT2ZmZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imadb/Desktop/4eme_GL/S1/ASP.NET/Projet/projet_Daber_5edma_version_sans_api/projet_Daber_5edma_version_sans_api/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1lwmtrv4hg

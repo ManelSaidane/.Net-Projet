@@ -1,0 +1,15 @@
+﻿@model IEnumerable<ProjetRec.Models.Candidat>
+
+@{
+    var candidat = Model.FirstOrDefault();
+    if (candidat != null)
+    {
+        <h2>@candidat.Name's Applications</h2>
+        <ul>
+            @foreach (var application in candidat.Application)
+            {
+                <li>Application ID: @application.Id, Status: @application.Status</li>
+            }
+        </ul>
+    }
+}

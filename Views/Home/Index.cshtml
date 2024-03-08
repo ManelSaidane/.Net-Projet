@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ProjetRec.Models.Job>
+
+@{
+    ViewData["Title"] = "Recruitment Portal";
+}
+
+<h1>Welcome to our Website</h1>
+
+<!-- Jumbotron Section -->
+<section class="jumbotron text-center bg-light">
+    <div class="container">
+        <h1 class="jumbotron-heading">Recruitment Portal</h1>
+        <p>
+            <a asp-controller="Entreprise" asp-action="Login" class="btn btn-primary my-2">Entreprise</a>
+            <a asp-controller="Candidats" asp-action="Login" class="btn btn-secondary my-2">Candidat</a>
+        </p>
+    </div>
+</section>
+
+<!-- Job Listings Section -->
+<div class="container">
+    <div class="row">
+        @foreach (var job in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <!-- Replace 'job_image_url' with your image URL -->
+                    <img src="https://blog.lesjeudis.com/wp-content/uploads/2020/04/des-outils-developpeurs-frontend-800x600-1.png" class="card-img-top" alt="Job Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@job.Title</h5>
+                        <p class="card-text">@job.Description</p>
+                        <!-- Additional job details can be added here -->
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

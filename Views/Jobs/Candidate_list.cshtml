@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ProjetRec.Models.Candidat_Job>
+
+@{
+    ViewData["Title"] = "Candidate List";
+}
+
+<!-- Custom Style -->
+<style>
+    .candidate-list-table {
+        margin-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+
+    .table-hover tbody tr:hover td,
+    .table-hover tbody tr:hover th {
+        background-color: #f5f5f5;
+    }
+
+    .table-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container">
+    <h1 class="table-heading">Candidate List</h1>
+
+    <div class="table-responsive">
+        <table class="table table-hover candidate-list-table">
+            <thead class="thead-light">
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Tel</th>
+                    <th>Email</th>
+                    <th>Skills</th>
+                    <th>Resume</th>
+                    <th>Status</th>
+                    <th>Actions</th> <!-- Add a new column for actions -->
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.cName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.cSurname)</td>
+                        <td>@Html.DisplayFor(modelItem => item.cTel)</td>
+                        <td>@Html.DisplayFor(modelItem => item.cEmail)</td>
+                        <td>@Html.DisplayFor(modelItem => item.cSkills)</td>
+                        <td>@Html.DisplayFor(modelItem => item.cResume)</td>
+                        <td>@Html.DisplayFor(modelItem => item.jaStatus)</td>
+                        <td>
+                            <a asp-controller="Application" asp-action="Accept" class="btn btn-secondary">Accepter</a>
+                            <a asp-controller="Application" asp-action="Refuse" class="btn btn-secondary">Refuseé</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\projet_Daber_5edma_version_sans_api.props" />
+</Project>

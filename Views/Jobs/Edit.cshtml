@@ -1,0 +1,87 @@
+﻿@model ProjetRec.Models.Job
+
+@{
+    ViewData["Title"] = "Edit Job";
+}
+
+<!-- Custom Style -->
+<style>
+    .edit-form-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .edit-form {
+        padding: 25px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .edit-heading {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .back-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="container edit-form-container">
+    <div class="col-md-6 edit-form">
+        <h1 class="edit-heading">Edit Job</h1>
+        <hr />
+
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <label asp-for="Title" class="control-label">Title</label>
+                <input asp-for="Title" class="form-control" placeholder="Enter title" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Description</label>
+                <input asp-for="Description" class="form-control" placeholder="Enter description" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SkillsNeeded" class="control-label">Skills Needed</label>
+                <input asp-for="SkillsNeeded" class="form-control" placeholder="Enter required skills" />
+                <span asp-validation-for="SkillsNeeded" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Location" class="control-label">Location</label>
+                <input asp-for="Location" class="form-control" placeholder="Enter location" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EntrepriseId" class="control-label">Entreprise</label>
+                <select asp-for="EntrepriseId" class="form-control" asp-items="ViewBag.EntrepriseId"></select>
+                <span asp-validation-for="EntrepriseId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary btn-block" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="back-link">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
